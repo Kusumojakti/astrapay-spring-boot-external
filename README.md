@@ -95,16 +95,34 @@ mvn spring-boot:run
 ## API Preview
 
 **GET All Notes**
+
 ![GET All Notes](./screenshot/Get.png)
 
 **POST Success Data**
+
 ![POST All Notes](./screenshot/Post.png)
 
+**POST Error Data**
+
+![POST Error All Notes](./screenshot/validation-content.png)
+
 **PUT Update Data**
+
 ![PUT All Notes](./screenshot/Put.png)
 
+**PUT Error Update Data**
+
+![PUT Error All Notes](./screenshot/update-id-notfound.png)
+
 **DELETE Notes Data**
-![PUT All Notes](./screenshot/Deleted.png)
+
+![DELETE Error All Notes](./screenshot/Deleted.png)
+
+**DELETE Notes Data**
+
+![DELETE Error All Notes](./screenshot/delete-id-notfound.png)
+
+
 
 ## Testing
 
