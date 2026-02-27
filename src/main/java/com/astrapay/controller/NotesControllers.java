@@ -12,7 +12,8 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "${app.cors.allowed-origins")
+//@CrossOrigin(origins = "${app.cors.allowed-origins}")
+@CrossOrigin(origins = "*")
 @RequestMapping("api/v1/notes")
 public class NotesControllers {
     private final NotesServices notesServices;
